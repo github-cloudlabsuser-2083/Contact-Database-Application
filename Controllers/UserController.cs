@@ -6,7 +6,7 @@ namespace CRUD_application_2.Controllers
 {
     public class UserController : Controller
     {
-        private static System.Collections.Generic.List<User> userList = new System.Collections.Generic.List<User>();
+        public static System.Collections.Generic.List<User> userList = new System.Collections.Generic.List<User>();
 
         // GET: User
         public ActionResult Index()
